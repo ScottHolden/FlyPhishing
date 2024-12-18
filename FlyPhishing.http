@@ -1,0 +1,40 @@
+@FlyPhishing_HostAddress = http://localhost:5078
+
+
+POST {{FlyPhishing_HostAddress}}/api/phish
+Accept: text/plain
+
+---
+From: bob@microsfot.com
+To: scott@microsoft.com
+Subject: Loss of access imminent
+
+Hi,
+
+You need to renew access now, click the link ASAP otherwise your account will be disabled:
+
+https://access.review.microsoft.com.renew.xyz/urgent/renew
+
+Thanks,
+Security Director
+---
+###
+
+
+POST {{FlyPhishing_HostAddress}}/api/phish
+Accept: text/plain
+
+---
+From: jane@microsoft.com
+To: scott@microsoft.com
+Subject: Report follow-up
+
+Hey Scott,
+
+Just following up on the report you sent me, looks like we are ready to move forward with the project.
+Can you give me a call when you have a moment?
+
+Thanks,
+Jane Doe
+---
+###

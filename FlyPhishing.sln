@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyPhishing", "FlyPhishing.csproj", "{7DABC403-6A41-4F28-97FB-4D0DD06CACA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DABC403-6A41-4F28-97FB-4D0DD06CACA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DABC403-6A41-4F28-97FB-4D0DD06CACA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DABC403-6A41-4F28-97FB-4D0DD06CACA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DABC403-6A41-4F28-97FB-4D0DD06CACA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4F5D623-60A4-426C-B4CE-D9F4B0659380}
+	EndGlobalSection
+EndGlobal
